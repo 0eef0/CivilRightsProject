@@ -46,8 +46,9 @@ div#buttonPanel button{
     color: white;
     border: none;
     padding: 1rem;
-    width: 20rem;
+    width: 20vw;
     border-radius: 10rem;
+    font-size: calc(0.5vw + 0.5vh);
 }
 div#buttonPanel button:hover{
     background-color: white;

@@ -1,11 +1,12 @@
 $(document).ready(function(){
     setInterval(() => {
-        if(window.innerHeight > window.innerWidth){
+/*         if(window.innerHeight > window.innerWidth){
             $('div.content').css('height', '30vw');
         }else{
             $('div.content').css('height', '18vw');
-        }
-        $('#navbar').css('height', window.innerHeight)
+        } */
+        $('#navbar').css('height', window.innerHeight);
+        $('div.content').css('height', window.innerHeight * 0.35)
     }, 100);
 
     $(window).scroll(function(){
