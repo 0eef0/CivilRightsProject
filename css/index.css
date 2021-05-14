@@ -10,6 +10,7 @@ body,html{
 *{
     padding: 0;
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div#navbar{
@@ -27,6 +28,31 @@ div#navbar h1{
 div#navbar h2{
     font-size: calc(2vw + 2vh);
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div#navbar h3{
+    font-size: calc(1vw + 1vh);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div#buttonPanel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+div#buttonPanel button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 10rem;
+}
+div#buttonPanel button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
 }
 div.content{
     display: block;
